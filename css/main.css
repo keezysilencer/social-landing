@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+.heroContainer{
+    background-color: #F6F6F4;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroForm{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+.formHeader{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.formHeaderMobile{
+    display: none;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 200px;
+}
+.heroContent{
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.heroContent h1{
+    font-size: 55px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.heroContent p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.btnStart{
+    background-color: #285DE3;
+    color: #F6F6F4;
+    border: none;
+    border-radius: 200px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+}
+.roundDiv {
+    width: 250px;
+    height: 250px;
+    background-color: #F6F0CD;
+    border-radius: 50%;
+    margin: 20px auto;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    z-index: 1;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+.header p{
+    margin-left: 20px;
+}
+.toolsCard{
+    background-color: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    width: 25%;
+    height: 250px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.toolsContainer, .socialContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.toolsContainer p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.toolsContainer small{
+    font-size: 14px;
+    font-weight: normal;
+    color: #252525;
+}
+.toolsImg{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.comingSoon{
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 10px;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+.toolsHeader, .socialHeader{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.toolsHeader, .socialHeader, h3{
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.toolsHeader p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.socialHeader p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.toolsAction{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+.socialContainer{
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.socialHeader{
+    margin-bottom: 50px;
+}
+.socialCard{
+    width: 50%;
+    height: 500px;
+    margin-right: 40px;
+}
+.socialCard h4{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.socialCard p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+.socialImg{
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.footer{
+    align-items: center;
+    margin-top: 100px;
+}
+.navLink{
+    margin-right: 20px;
+}
+.footerNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+.footerNav a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 14px;
+}
+.socialsLink img{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.copyRight{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footerNav{
+    margin-top: 20px;
+}
+.socialsLink a{
+    text-decoration: none;
+    color: #252525;
+    font-size: 14px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footerContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.phoneNumber{
+    font-size: 16px;
+}
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .roundDiv {
+        top: 90px;
+        left: -80px;
+        height: 180px;
+        width: 180px;
+    }
+    .mainContent{
+        flex-direction: column;
+    }
+    .toolsContainer, .socialContainer{
+        flex-direction: column;
+    }
+    .toolsCard{
+        width: 100%;
+        margin-right: 0;
+    }
+    .socialCard{
+        width: 100%;
+        margin-right: 0;
+    }
+    .heroContent{
+        text-align: center;
+    }
+    .heroContent h1{
+        font-size: 38px;
+    }
+    .heroContent p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .heroForm{
+        width: 100%;
+        text-align: center;
+    }
+    .socialContainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header{
+        padding: 20px 20px;
+    }
+    .header img{
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+    }
+    .logo{
+        height: 40px !important;
+        width: 60px !important;
+        object-fit: contain;
+    }
+    .footerContent{
+        flex-direction: column;
+        text-align: center;
+    }
+    .socialContent{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footerNav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .navLink a{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .footerContainer{
+        padding: 0 20px;
+    }
+    .copyRight p{
+        font-size: 16px;
+    }
+    .socialsLink img{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .formHeader{
+        display: none;
+    }
+    .formHeaderMobile{
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    .toolsHeader h3{
+        font-size: 35px;
+    }
+    .heroContent{
+        width: 100%;
+    }
+    .phoneNumber{
+        font-size: 13px;
+    }
+}
+
